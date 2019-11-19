@@ -1,8 +1,8 @@
-|    Type   |                             Target                            | Examples                                                                                                                                                                             |
-|:---------:|:-------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  Property | Element property<br>Component property<br>Directive property  | ```javascript<br><img [src]="heroImageURL /><br><app-hero-detail [hero]="currentHero /><br><div [ngClass]="{'special': isSpecial}" /><br>```                                         |
-|   Event   |      Element event<br>Component event<br>Directive event      | ```javascript<br><button (click)="onSave()">Save</button><br><app-hero-detail (deleteRequest)="deleteHero()" /><br><div (myClick)="clicked=$event" clickable>click me> </div><br>``` |
-|  Two-way  |                       Event and property                      | ```javascript<br><input [(ngModel)]="name"><br>```                                                                                                                                   |
-| Attribute |                           Attribute                           | ```javascript<br><button [attr.aria-label]="help">help</button><br>```                                                                                                               |
-|   Class   |                         class property                        | ```javascript<br><div [class.special]="isSpecial">Special</div><br>```                                                                                                               |
-|   Style   |                         style property                        | ```javascript<br><button [style.color]="isSpecial ? 'red' : 'green'"><br>```                                                                                                         |
+| Type | Target | Examples |
+|:---------:|:-------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Property | Element property Component property Directive property  | ```javascript <img [src]="heroImageURL /> <app-hero-detail [hero]="currentHero /> <div [ngClass]="{'special': isSpecial}" /> ``` |
+| Event | Element event Component event Directive event | ```javascript <button (click)="onSave()">Save</button> <app-hero-detail (deleteRequest)="deleteHero()" /> <div (myClick)="clicked=$event" clickable>click me> </div> ``` |
+| Two-way | Event and property | ```javascript <input [(ngModel)]="name"> ``` |
+| Attribute | Attribute | ```javascript <button [attr.aria-label]="help">help</button> ``` |
+| Class | class property | ```javascript <div [class.special]="isSpecial">Special</div> ``` |
+| Style | style property | ```javascript <button [style.color]="isSpecial ? 'red' : 'green'"> ``` |
