@@ -1,2 +1,8 @@
-# markdown-test
-asdf
+|    Type   |                             Target                            | Examples                                                                                                                                                                             |
+|:---------:|:-------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Property | Element property<br>Component property<br>Directive property  | ```javascript<br><img [src]="heroImageURL /><br><app-hero-detail [hero]="currentHero /><br><div [ngClass]="{'special': isSpecial}" /><br>```                                         |
+|   Event   |      Element event<br>Component event<br>Directive event      | ```javascript<br><button (click)="onSave()">Save</button><br><app-hero-detail (deleteRequest)="deleteHero()" /><br><div (myClick)="clicked=$event" clickable>click me> </div><br>``` |
+|  Two-way  |                       Event and property                      | ```javascript<br><input [(ngModel)]="name"><br>```                                                                                                                                   |
+| Attribute |                           Attribute                           | ```javascript<br><button [attr.aria-label]="help">help</button><br>```                                                                                                               |
+|   Class   |                         class property                        | ```javascript<br><div [class.special]="isSpecial">Special</div><br>```                                                                                                               |
+|   Style   |                         style property                        | ```javascript<br><button [style.color]="isSpecial ? 'red' : 'green'"><br>```                                                                                                         |
