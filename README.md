@@ -5,4 +5,5 @@
 | Two-way | Event and property | ```javascript <input [(ngModel)]="name"> ``` |
 | Attribute | Attribute | ```javascript <button [attr.aria-label]="help">help</button> ``` |
 | Class | class property | ```javascript <div [class.special]="isSpecial">Special</div> ``` |
-| Style | style property | ```javascript <button [style.color]="isSpecial ? 'red' : 'green'"> ``` |
+| Style | style property | ```javascript
+<button [style.color]="isSpecial ? 'red' : 'green'"> ``` |
